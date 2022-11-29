@@ -9,14 +9,6 @@
       "selectedValue": "professional"
     },
     {
-      "firstName": "John1",
-      "lastName": "Doe",
-      "email": "johndoe@gmail.com",
-      "profession": "Front End Developer",
-      "selectedValue": "professional",
-      "id": 2
-    },
-    {
       "id": "mmiXEFH",
       "firstName": "Mahfuz",
       "lastName": "Shazol",
