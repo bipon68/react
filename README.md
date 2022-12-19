@@ -76,7 +76,7 @@
 
 ## JavaScript
 - [Async vs Defer Script Loading](https://www.youtube.com/watch?v=BMuFBYw91UQ), [Article](https://blog.webdevsimplified.com/2019-12/javascript-loading-attributes-explained/)
-[ ] [Var vs Let vs Const](https://www.youtube.com/watch?v=9WIJQDvt4Us), [Article](https://blog.webdevsimplified.com/2020-01/var-vs-let-vs-const/)
+[ ][Var vs Let vs Const](https://www.youtube.com/watch?v=9WIJQDvt4Us), [Article](https://blog.webdevsimplified.com/2020-01/var-vs-let-vs-const/)
 [ ] [Strict Equality](https://www.youtube.com/watch?v=C5ZVC4HHgIg), [Article](https://blog.webdevsimplified.com/2020-08/==-vs-===/)
 [ ] [Hoisting](https://blog.webdevsimplified.com/2020-07/javascript-hoisting/)
 [ ] Scoping
