@@ -1,4 +1,4 @@
-/**
+
  * 1. Manage repositories 
  *    - multiple projects
  *    - monorepo vs poly repo
@@ -38,4 +38,3 @@
  *    - Error Boundary
  *    - Distributed Logs
  *    - Crash Reports
- */
