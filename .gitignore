@@ -10,6 +10,7 @@
 
 # dependencies
 /node_modules
+/full-stack-army/dse/scss/node_modules
 
 # IDEs and editors
 /.idea
