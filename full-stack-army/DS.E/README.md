@@ -5,7 +5,8 @@
     - package.json > "build": "node ./src/scripts/build.js" [update package.json file]
     - build command: yarn build
 
-### Mono Repo
+### Setup Mono Repo
+    - [Lerna Documentation](https://lerna.js.org/docs/introduction)
     - Create `packages` folder
     - move `scss` library into packages folder
     - update `name` into packages/scss "name": "@ds.e/scss", [@project_name/something]
@@ -13,16 +14,9 @@
     - DS.E directory update name `"name": "@ds.e/core",` [@org_name/something]
     - yarn add -D lerna
     - yarn lerna init [Initiat for this is lerna project]
-    - update `lerna.json` file `  "packages": [
-    "packages/*"
-  ],
-  "npmClient": "yarn",
-  "stream": true`
-  - update package.json file. Workspaces Create as a object "workspaces": {
-    "packages" : [
-      "packages/*"
-    ]
-  }` 
+    - update `lerna.json` file `  "packages": ["packages/*"],
+  - "npmClient": "yarn", "stream": true`
+  - update package.json file. Workspaces Create as a object "workspaces": {"packages" : ["packages/*"]}` 
   - update package.json file. "private": true [project create public or private]
   - Remove node_modules DS.E & scss dir
   - command run `yarn`,
@@ -40,4 +34,11 @@
     "build": "yarn lerna run build"
   }`
   - For build : `yarn build`
+
+  ### Setup React Library
+    - create `react` folder
+    - yarn init -y
+    - update `package.json` file. `"name": "@ds.e/react",` 
+    - install dev dependency `yarn add -D react typescript @types/react`
+    - create `tsconfig.json` file and config
 
