@@ -2,5 +2,17 @@
   "name": "@ds.e/core",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.4.0"
+  },
+  "workspaces": {
+    "packages" : [
+      "packages/*"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
 }
