@@ -41,4 +41,16 @@
     - update `package.json` file. `"name": "@ds.e/react",` 
     - install dev dependency `yarn add -D react typescript @types/react`
     - create `tsconfig.json` file and config
+    - create a button atoms and install `yarn add -D rollup rollup-plugin-typescript2`
+    - need rollup config `react > rollup.config.js`
+    - after file creation need build command into `react/src/package.json` `"name": "@ds.e/react",` `"scripts": {"build": "rollup -c"}`
+    - now build `yarn build` then build a `lib` directory
+    - before create vite project install `npm i create-vite`
+    - create new dir `DS.E/playgrounds` and crete a project `yarn create vite` or `npm init vite`
+    - again run command `yarn`
+    - update `DS.E/package.json` file `"workspaces": {"packages": ["packages/*", "playgrounds/*"]`
+    - run `yarn dev`
+
+### Reference 
+- [Creating a React.js App using Vite](https://www.section.io/engineering-education/creating-a-react-app-using-vite/)
 
